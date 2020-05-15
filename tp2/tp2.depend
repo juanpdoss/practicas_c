@@ -23,3 +23,27 @@
 
 1588978655 c:\users\juan pablo\desktop\mibiblioteca\utn_biblioteca.h
 
+1589564981 source:c:\users\juan pablo\desktop\tp_laboratorio_1\tp2\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayEmployees.h"
+	"../../utnbiblioteca/utn_biblioteca.h"
+
+1589563859 c:\users\juan pablo\desktop\tp_laboratorio_1\tp2\arrayemployees.h
+
+1589564962 source:c:\users\juan pablo\desktop\tp_laboratorio_1\tp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayEmployees.h"
+	"../../utnbiblioteca/utn_biblioteca.h"
+
+1588979380 source:c:\users\juan pablo\desktop\utnbiblioteca\utn_biblioteca.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn_biblioteca.h"
+
+1588978655 c:\users\juan pablo\desktop\utnbiblioteca\utn_biblioteca.h
+

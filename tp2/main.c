@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "ArrayEmployees.h"
-#include "../mibiblioteca/utn_biblioteca.h"
+#include "../../utnbiblioteca/utn_biblioteca.h"
 
 #define LEN 10
 int main()
@@ -24,7 +24,7 @@ int main()
 
 
     initEmployees(employees,LEN);
-    //hardcodearEmpleados(employees,LEN);
+
 
 
     do

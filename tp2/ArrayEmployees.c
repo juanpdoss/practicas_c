@@ -2,7 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include "ArrayEmployees.h"
-#include "../mibiblioteca/utn_biblioteca.h"
+#include "../../utnbiblioteca/utn_biblioteca.h"
+
+
+
 int initEmployees(Employee* list, int len)
 {
     int retorno=-1;

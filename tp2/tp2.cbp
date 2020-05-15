@@ -31,10 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="../mibiblioteca/utn_biblioteca.c">
+		<Unit filename="../../utnbiblioteca/utn_biblioteca.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../mibiblioteca/utn_biblioteca.h" />
+		<Unit filename="../../utnbiblioteca/utn_biblioteca.h" />
 		<Unit filename="ArrayEmployees.c">
 			<Option compilerVar="CC" />
 		</Unit>
