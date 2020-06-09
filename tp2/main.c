@@ -79,8 +79,7 @@ int main()
                 utn_getEntero(&auxId,100,"Ingrese el id del empleado a modificar:","error.Utilice numeros\nrecuerde que los id estan comprendidos en el campo del 1000 al 2000\n",1000,2000);
                 auxIndice=findEmployeeById(employees,LEN,auxId);
                 printf("\n\n");
-                printf("datos del empleado ingresado:\n");
-                showEmployee(employees[auxIndice]);
+
                 if(auxIndice>=0)
                 {
                     switch(menuModifica())
