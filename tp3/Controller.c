@@ -105,9 +105,10 @@ int controller_addEmployee(LinkedList* pArrayListEmployee)
 {
     Employee* unEmpleado=employee_new();
     int ok=0;
- //   int tam=ll_len(pArrayListEmployee);
+    char auxnombre[200];
+    int auxSueldo;
+    int auxhoras;
     int auxId;
-//    int flagEncontre=0;
     system("cls");
 
     printf("        menu alta empleado\n\n");
@@ -135,10 +136,14 @@ int controller_addEmployee(LinkedList* pArrayListEmployee)
 
     if(buscoPorId(pArrayListEmployee,auxId)==0)
     {
-        unEmpleado->id=auxId;
-        utn_getCadena(unEmpleado->nombre,128,100,"ingrese nombre:","Error.Utilice letras.\n");
-        utn_getEntero(&unEmpleado->sueldo,100,"Ingrese sueldo:","Error. Utilice numeros.\n",0,99999);
-        utn_getEntero(&unEmpleado->horasTrabajadas,100,"Ingrese horas trabajadas:","Error.Utilice numeros.\n",0,99999);
+
+        utn_getCadena(auxnombre,128,100,"ingrese nombre:","Error.Utilice letras.\n");
+        utn_getEntero(&auxSueldo,100,"Ingrese sueldo:","Error. Utilice numeros.\n",0,99999);
+        utn_getEntero(&auxhoras,100,"Ingrese horas trabajadas:","Error.Utilice numeros.\n",0,99999);
+        employee_setId(unEmpleado,auxId);
+        employee_setNombre(unEmpleado,auxnombre);
+        employee_setSueldo(unEmpleado,auxSueldo);
+        employee_setHorasTrabajadas(unEmpleado,auxhoras);
 
 
         if(unEmpleado!=NULL)
